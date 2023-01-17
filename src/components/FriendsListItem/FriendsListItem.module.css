@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px tan;
+}
+.avatar {
+  margin-left: 30px;
+  background-color: tan;
+  border-radius: 20%;
+}
+.name {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+  margin-left: 40px;
+}
+.online::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(46, 146, 28);
+}
+
+.offline::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(155, 36, 36);
+}
